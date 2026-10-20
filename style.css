@@ -95,38 +95,7 @@
       -webkit-text-fill-color: var(--neon1);
       text-shadow: 0 0 12px var(--neon1);
     }
-
-    /* نوار پیشرفت ثانیه */
-    .bar {
-      margin: 34px auto 22px;
-      height: 6px;
-      width: 100%;
-      border-radius: 6px;
-      background: rgba(255, 255, 255, .1);
-      overflow: hidden;
-    }
-    .bar span {
-      display: block;
-      height: 100%;
-      width: 0%;
-      border-radius: 6px;
-      background: linear-gradient(90deg, var(--neon1), var(--neon2), var(--neon3));
-      box-shadow: 0 0 14px var(--neon2);
-      transition: width .25s linear;
-    }
-
-    .date {
-      font-size: 1.15rem;
-      font-weight: 300;
-      letter-spacing: .5px;
-      color: rgba(255, 255, 255, .8);
-    }
-    .greet {
-      margin-top: 6px;
-      font-size: .95rem;
-      color: var(--neon1);
-      opacity: .85;
-    }
+    
 
     @media (max-width: 520px) {
       .clock { padding: 34px 22px 28px; margin: 0 14px; }
